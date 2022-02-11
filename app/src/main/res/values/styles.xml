@@ -1,0 +1,321 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style Dialog -->
+    <style name="Dialog.LinkUp.Default" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@drawable/shape_light</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorCardDark</item>
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="InputCustomContainer" parent="android:Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/frame_round_overlay_dark</item>
+        <item name="android:paddingTop">@dimen/content_inset_half</item>
+        <item name="android:paddingBottom">@dimen/content_inset_half</item>
+        <item name="android:paddingLeft">@dimen/content_inset_less</item>
+        <item name="android:paddingRight">@dimen/content_inset_less</item>
+    </style>
+
+    <style name="Widget.Input.Custom" parent="android:Widget.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/dynamic_content_text_size</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHint">?textColorSecondary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textDirection" tools:ignore="NewApi">locale</item>
+    </style>
+
+    <!-- Style ProgressDialog -->
+    <style name="Dialog.LinkUp.ProgressDefault" parent="Theme.AppCompat.Dialog">
+        <item name="android:panelBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorCardLight</item>
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorPrimary">?textColorSecondary</item>
+        <item name="android:textColorSecondary">?textColorTertiaryInverse</item>
+        <item name="android:textColorTertiary">?textColorTertiary</item>
+    </style>
+
+    <!-- Contents -->
+    <style name="Widget.TextView.Body" parent="Widget.TextView">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">@dimen/dynamic_body_text_size</item>
+        <item name="fontType">poppingRegular</item>
+    </style>
+
+    <!-- Base -->
+    <style name="Widget.TextView" parent="android:Widget.TextView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:lineSpacingMultiplier">0.7</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="fontType">poppingRegular</item>
+    </style>
+
+    <!-- Titles -->
+    <style name="Widget.TextView.Title" parent="Widget.TextView">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">@dimen/dynamic_title_text_size</item>
+        <item name="fontType">poppingSemiBold</item>
+    </style>
+
+    <!-- Descriptions -->
+    <style name="Widget.TextView.Description" parent="Widget.TextView">
+        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textSize">@dimen/dynamic_body_text_size</item>
+        <item name="fontType">poppingRegular</item>
+    </style>
+
+    <!-- Theme Navigation Drawer -->
+    <style name="AppTheme.Drawer" parent="AppTheme.Dark">
+        <item name="colorPrimary">@color/colorAccentSecondary</item>
+        <item name="android:windowBackground">@color/colorDrawer</item>
+        <item name="colorControlHighlight">@color/alpha_accent</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/colorCardDark</item>
+        <item name="android:fontFamily">@string/font_poppins_bold</item>
+        <item name="android:textSize">@dimen/dynamic_body_text_size</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Styles Widget Button -->
+
+    <style name="Widget.Button" parent="android:Widget.Button">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontType">poppingMedium</item>
+    </style>
+
+    <style name="Widget.Button.Content" parent="Widget.Button">
+        <item name="android:paddingTop">@dimen/content_inset_less</item>
+        <item name="android:paddingBottom">@dimen/content_inset_less</item>
+        <item name="android:paddingLeft">@dimen/padding_button_rounded_fixed</item>
+        <item name="android:paddingRight">@dimen/padding_button_rounded_fixed</item>
+        <item name="android:textSize">@dimen/dynamic_body_text_size</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.Primary" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_primary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.Accent" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_accent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/btn_accent_text_color_selector</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.AccentAlpha" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_accent_alpha</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.AccentSecondary" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_accent_secondary</item>
+        <item name="colorControlHighlight">@color/colorAccentSecondary</item>
+        <item name="colorButtonNormal">@color/colorAccentSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.White" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.Black" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_black</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Content.Rounded.Accent.Border" parent="Widget.Button.Content">
+        <item name="android:background">@drawable/selector_btn_round_accent_border</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Button.Body" parent="Widget.Button">
+        <item name="android:paddingTop">@dimen/content_inset_half</item>
+        <item name="android:paddingBottom">@dimen/content_inset_half</item>
+        <item name="android:paddingLeft">@dimen/padding_button_rounded_fixed</item>
+        <item name="android:paddingRight">@dimen/padding_button_rounded_fixed</item>
+        <item name="android:textSize">@dimen/dynamic_mini_text_size</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.Primary" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_primary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.Accent" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_accent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.AccentAlpha" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_accent_alpha</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.AccentSecondary" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_accent_secondary</item>
+        <item name="colorControlHighlight">@color/colorAccentSecondary</item>
+        <item name="colorButtonNormal">@color/colorAccentSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.White" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.Black" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_black</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.overlay.dark" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_overlay_dark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Widget.Button.Body.Rounded.Accent.Border" parent="Widget.Button.Body">
+        <item name="android:background">@drawable/selector_btn_round_accent_border</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Button.Mini" parent="Widget.Button">
+        <item name="android:paddingTop">@dimen/content_inset_quarter</item>
+        <item name="android:paddingBottom">@dimen/content_inset_quarter</item>
+        <item name="android:paddingLeft">@dimen/content_inset_less</item>
+        <item name="android:paddingRight">@dimen/content_inset_less</item>
+        <item name="android:textSize">@dimen/dynamic_tiny_text_size</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.Primary" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_primary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.Accent" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_accent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.AccentAlpha" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_accent_alpha</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.AccentSecondary" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_accent_secondary</item>
+        <item name="colorControlHighlight">@color/colorAccentSecondary</item>
+        <item name="colorButtonNormal">@color/colorAccentSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.White" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.Black" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_black</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Button.Mini.Rounded.Accent.Border" parent="Widget.Button.Mini">
+        <item name="android:background">@drawable/selector_btn_round_accent_border</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Style DatePickerDialog -->
+    <style name="Dialog.LinkUp.DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorPrimary">?textColorPrimary</item>
+        <item name="android:textColorSecondary">?textColorSecondary</item>
+    </style>
+
+    <style name="InputChatContainer">
+        <item name="android:background">@drawable/shape_input_chat_rounded</item>
+    </style>
+
+    <style name="Widget.Input.Chat" parent="android:Widget.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">@dimen/content_inset_half</item>
+        <item name="android:paddingBottom">@dimen/content_inset_half</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">@dimen/content_inset_less</item>
+        <item name="android:paddingRight">@dimen/content_inset_less</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:textSize">@dimen/dynamic_content_text_size</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHint">?textColorSecondary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textDirection" tools:ignore="NewApi">locale</item>
+        <item name="fontType">poppingRegular</item>
+    </style>
+
+</resources>

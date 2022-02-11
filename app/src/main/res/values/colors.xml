@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFa62B</color>
+    <color name="colorPrimaryDark">#DB6400</color>
+    <color name="colorAccent">#16697A</color>
+    <color name="colorAccentSecondary">#BF512D</color>
+    <color name="colorAccentLight">#44BBC4</color>
+    <color name="colorAccentDark">#3d9eb6</color>
+
+    <color name="colorWindowsBackgroundDark">@color/colorPrimaryDark</color>
+    <color name="colorWindowsBackgroundLight">#e6eaef</color>
+
+    <color name="colorCardDark">@android:color/black</color>
+    <color name="colorCardLight">@android:color/white</color>
+
+    <color name="divider_dark">#11000000</color>
+    <color name="divider_light">#11FFFFFF</color>
+
+    <color name="overlay_dark">#20000000</color>
+    <color name="overlay_dark_mini">#99000000</color>
+    <color name="overlay_dark_disabled">#10000000</color>
+    <color name="overlay_light">#33FFFFFF</color>
+    <color name="overlay_light_mini">#CCFFFFFF</color>
+    <color name="overlay_light_disabled">#11FFFFFF</color>
+    <color name="overlay_dim_default">#77000000</color>
+
+    <color name="colorDrawer">#FFFFFF</color>
+
+    <color name="error">#FF1744</color>
+
+    <color name="grey">#546E7A</color>
+
+    <!-- Colors Alerts -->
+    <color name="danger">@color/error</color>
+    <color name="success">#02C161</color>
+
+    <!-- Colors Files -->
+    <color name="colorFileText">@color/grey</color>
+    <color name="colorFilePdf">#e72f36</color>
+    <color name="colorFileWord">#1384c9</color>
+    <color name="colorFileExcel">#3CB881</color>
+    <color name="colorFilePowerPoint">#ffcb49</color>
+    <color name="colorFileZip">#e78d2d</color>
+    <color name="colorFileImage">#82469A</color>
+    <color name="colorFileGif">#2C9DD8</color>
+    <color name="colorFileVideo">#D85026</color>
+    <color name="colorFileAudio">#A82E6C</color>
+    <color name="colorFileApk">#1FA85B</color>
+    <color name="colorFileOthers">#607D8B</color>
+
+    <color name="toolbar_dark_title_color">@color/colorCardLight</color>
+    <color name="toolbar_dark_icons_color">@color/colorCardLight</color>
+    <color name="toolbar_light_title_color">@color/colorCardDark</color>
+    <color name="toolbar_light_icons_color">@color/colorCardDark</color>
+
+    <color name="colorStatusDark">#1c1a46</color>
+    <color name="colorStatusLight">@color/colorPrimary</color>
+
+    <color name="control_highlight_light">#27FFFFFF</color>
+    <color name="control_highlight_dark">#11000000</color>
+
+    <color name="emoticon">#FFD600</color>
+
+    <color name="alpha_accent">#C0BDC2</color>
+    <color name="alpha_error">#AFFF1744</color>
+
+    <color name="colorWarning">#ff9100</color>
+    <color name="colorWarningDark">#c56200</color>
+    <color name="colorWarningLight">#ffc246</color>
+
+    <!-- Custom Dialog-->
+    <color name="colorSuccess">#0FA044</color>
+    <color name="colorSuccessDark">#065210</color>
+    <color name="colorSuccessLight">#37E763</color>
+
+    <color name="colorError">#B71C1C</color>
+    <color name="colorErrorDark">#4D0505</color>
+    <color name="colorErrorLight">#f05545</color>
+
+</resources>

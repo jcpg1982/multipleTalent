@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Poppins Fonts -->
+    <string name="font_poppins_bold" translatable="false">Poppins-Bold.ttf</string>
+    <string name="font_poppins_semi_bold" translatable="false">Poppins-SemiBold.ttf</string>
+    <string name="font_poppins_medium" translatable="false">Poppins-Medium.ttf</string>
+    <string name="font_poppins_regular" translatable="false">Poppins-Regular.ttf</string>
+    <string name="font_poppins_light" translatable="false">Poppins-Light.ttf</string>
+
+    <!-- Raleway Fonts -->
+    <string name="font_raleway_bold" translatable="false">Raleway-Bold.ttf</string>
+    <string name="font_raleway_semi_bold" translatable="false">Raleway-SemiBold.ttf</string>
+    <string name="font_raleway_medium" translatable="false">Raleway-Medium.ttf</string>
+    <string name="font_raleway_regular" translatable="false">Raleway-Regular.ttf</string>
+    <string name="font_raleway_light" translatable="false">Raleway-Light.ttf</string>
+
+    <!-- Sinkin Fonts -->
+    <string name="font_sinkin_bold" translatable="false">SinkinSans-Bold.otf</string>
+    <string name="font_sinkin_semi_bold" translatable="false">SinkinSans-SemiBold.otf</string>
+
+</resources>

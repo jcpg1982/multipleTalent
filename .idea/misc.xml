@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/drawable-v24/frame_round_overlay_dark.xml" value="0.1135" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/drawable/ic_action_arrow_back.xml" value="0.1135" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/drawable/selector_btn_round_accent.xml" value="0.1135" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/drawable/shape_transparent.xml" value="0.1135" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/activity_splash.xml" value="0.184375" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/home_fragment.xml" value="0.3489583333333333" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/include_toolbar_main.xml" value="0.184375" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/letter_fragment.xml" value="0.3489583333333333" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/layout/row_home.xml" value="0.3252032520325203" />
+        <entry key="..\:/Trabajos/Personal/Android/televisa/MultiplicaTalent/app/src/main/res/menu/menu_search.xml" value="0.3489583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

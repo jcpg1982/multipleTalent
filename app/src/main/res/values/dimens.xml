@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--region dimens default-->
+    <dimen name="content_inset_more_large">32dp</dimen>
+    <dimen name="content_inset_more">24dp</dimen>
+    <dimen name="content_inset_regular">18dp</dimen>
+    <dimen name="content_inset">16dp</dimen>
+    <dimen name="content_inset_less_card">14dp</dimen>
+    <dimen name="content_inset_less">12dp</dimen>
+    <dimen name="content_inset_half">8dp</dimen>
+    <dimen name="content_inset_half_card">6dp</dimen>
+    <dimen name="content_inset_quarter">4dp</dimen>
+    <dimen name="content_inset_eighth">2dp</dimen>
+    <dimen name="content_inset_one">1dp</dimen>
+    <!--endregion-->
+
+    <!--region Font size Default static -->
+    <dimen name="static_tiny_text_size">10dp</dimen>
+    <dimen name="static_mini_text_size">12dp</dimen>
+    <dimen name="static_body_text_size">14dp</dimen>
+    <dimen name="static_content_text_size">16dp</dimen>
+    <dimen name="static_title_text_size">18dp</dimen>
+    <dimen name="static_space_title_and_text_size">20dp</dimen>
+    <dimen name="static_header_text_size">22dp</dimen>
+    <dimen name="static_display_text_size">26dp</dimen>
+    <dimen name="static_counter_text_size">32dp</dimen>
+    <dimen name="static_big_text_size">36dp</dimen>
+    <dimen name="static_size_button_dialog">52dp</dimen>
+    <!--endregion-->
+
+    <!--region Font size Default dynamic -->
+    <dimen name="dynamic_tiny_text_size">10sp</dimen>
+    <dimen name="dynamic_mini_text_size">12sp</dimen>
+    <dimen name="dynamic_body_text_size">14sp</dimen>
+    <dimen name="dynamic_content_text_size">16sp</dimen>
+    <dimen name="dynamic_title_text_size">18sp</dimen>
+    <dimen name="dynamic_space_title_and_text_size">20sp</dimen>
+    <dimen name="dynamic_header_text_size">22sp</dimen>
+    <dimen name="dynamic_display_text_size">26sp</dimen>
+    <dimen name="dynamic_counter_text_size">32sp</dimen>
+    <dimen name="dynamic_big_text_size">36sp</dimen>
+    <dimen name="dynamic_size_button_dialog">52sp</dimen>
+    <!--endregion-->
+
+    <!--region Elevations Default -->
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="flat_elevation">1dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="btn_elevation">6dp</dimen>
+    <!--endregion-->
+
+    <!--region region Icons Default -->
+    <dimen name="icon_size_small">22dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_cat">36dp</dimen>
+    <dimen name="icon_size_rating">40dp</dimen>
+    <dimen name="icon_size_med">48dp</dimen>
+    <dimen name="icon_size_large">56dp</dimen>
+    <dimen name="icon_size_big">72dp</dimen>
+    <dimen name="icon_size_large_big">100dp</dimen>
+    <!--endregion-->
+
+    <!--region Icons Fab Default -->
+    <dimen name="icon_size_fab_little">70dp</dimen>
+    <dimen name="icon_size_fab_normal">120dp</dimen>
+    <dimen name="icon_size_fab_big">170dp</dimen>
+    <!--endregion-->
+
+    <!--region Size Default -->
+    <dimen name="progress_load_more_size">32dp</dimen>
+    <dimen name="profile_drawer_size">76dp</dimen>
+    <dimen name="profile_register_size">96dp</dimen>
+    <dimen name="image_login_size">150dp</dimen>
+    <dimen name="margin_profile">175dp</dimen>
+    <!--endregion-->
+
+    <!--region Size Default -->
+    <dimen name="dynamic_profile_drawer_size">76sp</dimen>
+    <dimen name="dynamic_profile_register_size">96sp</dimen>
+    <dimen name="dynamic_image_login_size">150sp</dimen>
+    <!--endregion-->
+
+    <!--region Width/Height Default -->
+    <dimen name="nav_header_height">192dp</dimen>
+    <!--endregion-->
+
+    <!--region Others -->
+    <dimen name="padding_button_rounded_fixed">16dp</dimen>
+    <dimen name="chat_message_margin">36dp</dimen>
+    <dimen name="padding_button_rounded_full_minor">48dp</dimen>
+    <dimen name="padding_button_rounded_full">56dp</dimen>
+    <!--endregion-->
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme Light -->
+    <style name="Base.AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_action_arrow_back</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_action_arrow_back</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionMode.Close</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionMode.Close</item>
+
+        <item name="actionBarPopupTheme">@style/AppTheme.Popup.Dark</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorWindowsBackgroundLight</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <item name="toolbarStyle">@style/Widget.Responsive.Toolbar.CustomInset</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.Responsive.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Responsive.ActionButton.Overflow</item>
+
+        <item name="textColorPrimary">@color/primary_text_selector_light</item>
+        <item name="textColorSecondary">@color/secondary_text_selector_light</item>
+        <item name="textColorTertiary">@color/tertiary_text_selector_light</item>
+        <item name="textColorPrimaryInverse">@color/primary_text_selector_dark</item>
+        <item name="textColorSecondaryInverse">@color/secondary_text_selector_dark</item>
+        <item name="textColorTertiaryInverse">@color/tertiary_text_selector_dark</item>
+        <item name="android:textColor">@color/primary_text_selector_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_selector_light</item>
+        <item name="android:textColorSecondary">@color/secondary_text_selector_light</item>
+        <item name="android:textColorTertiary">@color/tertiary_text_selector_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_selector_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_selector_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/tertiary_text_selector_dark</item>
+
+        <item name="colorAccentSecondary">@color/colorAccentSecondary</item>
+        <item name="toolbarColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Base theme Dark -->
+    <style name="Base.AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_action_arrow_back</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_action_arrow_back</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionMode.Close</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionMode.Close</item>
+
+        <item name="actionBarPopupTheme">@style/AppTheme.Popup.Dark</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorWindowsBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <item name="toolbarStyle">@style/Widget.Responsive.Toolbar.CustomInset</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.Responsive.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Responsive.ActionButton.Overflow</item>
+
+        <item name="textColorPrimary">@color/primary_text_selector_dark</item>
+        <item name="textColorSecondary">@color/secondary_text_selector_dark</item>
+        <item name="textColorTertiary">@color/tertiary_text_selector_dark</item>
+        <item name="textColorPrimaryInverse">@color/primary_text_selector_light</item>
+        <item name="textColorSecondaryInverse">@color/secondary_text_selector_light</item>
+        <item name="textColorTertiaryInverse">@color/tertiary_text_selector_light</item>
+        <item name="android:textColor">@color/primary_text_selector_dark</item>
+        <item name="android:textColorPrimary">@color/primary_text_selector_dark</item>
+        <item name="android:textColorSecondary">@color/secondary_text_selector_dark</item>
+        <item name="android:textColorTertiary">@color/tertiary_text_selector_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_selector_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_selector_light</item>
+        <item name="android:textColorTertiaryInverse">@color/tertiary_text_selector_light</item>
+
+        <item name="colorAccentSecondary">@color/colorAccentSecondary</item>
+        <item name="toolbarColor">@color/colorCardDark</item>
+    </style>
+
+    <!-- Theme Light -->
+    <style name="AppTheme.Light" parent="Base.AppTheme.Light" />
+
+    <!-- Theme Dark -->
+    <style name="AppTheme.Dark" parent="Base.AppTheme.Dark" />
+
+    <style name="Theme.splash" parent="AppTheme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- ActionMode -->
+    <style name="ActionModeStyle" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">@style/ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/ActionMode.Subtitle</item>
+        <item name="android:titleTextStyle">@style/ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/ActionMode.Subtitle</item>
+        <item name="background">@color/colorAccent</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="actionModeBackground">@color/colorAccent</item>
+        <item name="android:actionModeBackground">@color/colorAccent</item>
+    </style>
+
+    <style name="ActionMode.Close" parent="Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <!-- PopPupMenu -->
+    <style name="AppTheme.Popup.Dark" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/primary_text_selector_dark</item>
+        <item name="android:colorControlHighlight" tools:ignore="NewApi">
+            @color/control_highlight_light
+        </item>
+    </style>
+
+    <style name="AppTheme.Popup.Light" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:colorBackground">@color/colorCardLight</item>
+        <item name="android:popupBackground">@color/colorCardLight</item>
+        <item name="android:textColor">@color/primary_text_selector_light</item>
+        <item name="android:colorControlHighlight" tools:ignore="NewApi">
+            @color/control_highlight_dark
+        </item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.Responsive.Toolbar.CustomInset" parent="Widget.AppCompat.Toolbar">
+        <item name="maxButtonHeight">48dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="contentInsetStart">@dimen/content_inset</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="Widget.Responsive.Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">48dp</item>
+    </style>
+
+    <style name="Widget.Responsive.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <!--<item name="android:src">@drawable/ic_action_menu</item>-->
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart" tools:ignore="NewApi">0dp</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">0dp</item>
+    </style>
+
+    <style name="ActionMode.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ActionMode.Subtitle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorAccent" format="color" />
+    <attr name="colorAccentSecondary" format="color" />
+
+    <attr name="textColorPrimary" format="color" />
+    <attr name="textColorSecondary" format="color" />
+    <attr name="textColorTertiary" format="color" />
+    <attr name="textColorPrimaryInverse" format="color" />
+    <attr name="textColorSecondaryInverse" format="color" />
+    <attr name="textColorTertiaryInverse" format="color" />
+
+    <attr name="toolbarColor" format="color" />
+
+    <declare-styleable name="CustomTextView">
+        <attr name="fontType" format="enum">
+            <enum name="poppingBold" value="1" />
+            <enum name="poppingSemiBold" value="2" />
+            <enum name="poppingMedium" value="3" />
+            <enum name="poppingRegular" value="4" />
+            <enum name="poppingLight" value="5" />
+            <enum name="ralewayBold" value="6" />
+            <enum name="ralewaySemiBold" value="7" />
+            <enum name="ralewayMedium" value="8" />
+            <enum name="ralewayRegular" value="9" />
+            <enum name="ralewayLight" value="10" />
+            <enum name="sinkinBold" value="11" />
+            <enum name="sinkinSemiBold" value="12" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_shadow" format="boolean" />
+        <attr name="civ_shadow_color" format="color" />
+        <attr name="civ_shadow_radius" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordEditText">
+        <attr name="actionIconEnabled" format="boolean" />
+        <attr name="showActionIcon" format="reference" localization="suggested" />
+        <attr name="hideActionIcon" format="reference" localization="suggested" />
+        <attr name="actionIconTint" format="color" />
+        <attr name="showActionText" format="string" />
+        <attr name="hideActionText" format="string" />
+        <attr name="actionTextColor" format="color" />
+        <attr name="actionTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolbarChatHeader">
+        <attr name="tch_icon" format="reference" />
+        <attr name="tch_icon_tint" format="color" />
+        <attr name="tch_text" format="string" />
+        <attr name="tch_image" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSellerProgressBar">
+        <attr name="csp_text_enabled" format="boolean" />
+        <attr name="csp_text" format="string" localization="suggested" />
+        <attr name="csp_text_color" format="color" />
+        <attr name="csp_text_size" format="dimension" />
+        <attr name="csp_text_font" format="enum">
+            <enum name="poppingBold" value="1" />
+            <enum name="poppingSemiBold" value="2" />
+            <enum name="poppingMedium" value="3" />
+            <enum name="poppingRegular" value="4" />
+            <enum name="poppingLight" value="5" />
+            <enum name="ralewayBold" value="6" />
+            <enum name="ralewaySemiBold" value="7" />
+            <enum name="ralewayMedium" value="8" />
+            <enum name="ralewayRegular" value="9" />
+            <enum name="ralewayLight" value="10" />
+            <enum name="sinkinBold" value="11" />
+            <enum name="sinkinSemiBold" value="12" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PlayPauseView">
+        <attr name="isCircleDraw" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="EmoticonRatingBar">
+        <attr name="rating_isTintDrawable" format="boolean" />
+        <attr name="rating_normalColor" format="color" />
+        <attr name="rating_drawingColor" format="color" />
+        <attr name="rating_angryColor" format="color" />
+        <attr name="rating_iconPadding" format="dimension" />
+        <attr name="rating_themedColor" format="enum">
+            <enum name="Light" value="1" />
+            <enum name="Dark" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
